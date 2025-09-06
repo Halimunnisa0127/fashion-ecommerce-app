@@ -1,12 +1,91 @@
-# React + Vite
+# 🛍️ Fashion Ecommerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **E-commerce web application** built with **React (Vite)**, **Redux Toolkit**, and **TailwindCSS**, providing a fast and seamless shopping experience for users.
 
-Currently, two official plugins are available:
+---
+## 🚀 Live Demo  
+🔗 [Fashion Ecommerce App](https://fashion-ecommerce-app-nine.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+**Product Browsing:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Search products by keywords
+* Filter products by categories, price, or other attributes
+* Pagination to browse large product catalogs
+
+**Product Details:**
+
+* View product images, descriptions, pricing, and availability
+
+**Wishlist & Cart:**
+
+* Add/remove items to wishlist
+* Add/remove items to cart and adjust quantities
+
+**Checkout:**
+
+* Complete purchases with a smooth checkout workflow
+
+**State Management:**
+
+* Centralized store using **Redux Toolkit** for cart, wishlist, and product data
+
+**UI/UX:**
+
+* Responsive design built with **TailwindCSS**
+* Modern, clean, and user-friendly interface
+
+---
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/fashion-ecommerce-app.git
+```
+
+### Install Dependencies
+
+Navigate to the project folder:
+
+```bash
+cd fashion-ecommerce-app
+npm install
+```
+
+### Run the Application
+
+```bash
+npm run dev
+```
+
+
+Open the application in your browser at: `http://localhost:5173`
+
+---
+
+## Technologies Used
+
+**Front-End:** React.js, Redux Toolkit, TailwindCSS, Vite
+**State Management:** Redux Toolkit
+**Styling:** TailwindCSS
+
+---
+
+## Contributing
+
+Contributions are welcome! Submit bug reports, feature requests, or pull requests via GitHub.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Contact
+
+For any questions, reach out to me at `shaikmunni1314@gmail.com`
