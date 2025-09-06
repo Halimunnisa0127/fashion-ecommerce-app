@@ -23,7 +23,7 @@ const Header = () => {
       
       {/* Logo + Mobile Toggle */}
       <div className="flex w-full md:w-auto justify-between items-center">
-        <div className="text-fuchsia-800 text-3xl md:text-4xl font-bold">Nykaa</div>
+        <div className="text-fuchsia-800 text-3xl md:text-4xl font-bold">Fashion Hub</div>
         <button
           className="md:hidden text-gray-900 dark:text-white focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}

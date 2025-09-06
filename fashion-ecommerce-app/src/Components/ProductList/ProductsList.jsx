@@ -163,7 +163,7 @@ const ProductsList = () => {
   return (
     <div className="products-container px-4 py-8">
       <h2 className="text-3xl font-bold mb-6 text-center text-amber-600 drop-shadow">
-        Nykaa Best Sellers
+        Fashion Hub Best Sellers
       </h2>
       {content}
     </div>

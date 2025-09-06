@@ -9,7 +9,7 @@ const initialState = {
   story: {
     title: "Our Story",
     text: "Founded in 2025, our store aims to blend style with comfort. We curate clothing and accessories that are trendy, sustainable, and affordable. Our mission is to make fashion accessible for everyone while promoting ethical practices and quality craftsmanship.",
-    image: "https://images.unsplash.com/photo-1521335629791-ce4aec67dd47?auto=format&fit=crop&w=800&q=80",
+    image: "https://aureatelabs.com/wp-content/uploads/2022/11/31-eCommerce-Website-Pages-List_-Must-Have-Pages-Elements-With-Examples-1536x491.jpg",
   },
   mission: {
     title: "Our Mission",
