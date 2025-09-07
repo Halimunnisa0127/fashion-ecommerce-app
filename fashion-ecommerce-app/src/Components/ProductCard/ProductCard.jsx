@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div 
-      className="product-card relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+      className="product-card relative max-w-sm rounded-lg shadow-lg dark:shadow-gray-400 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
           <img
             src={product?.image}
             alt={product?.name}
-            className={`product-image rounded-t-lg w-60 mx-auto mt-4 h-50 max-w-full transition-transform duration-700 ${isHovered ? 'scale-110' : 'scale-100'} ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+            className={`product-image rounded-t-lg w-40 mx-auto mt-4 h-40 max-w-full transition-transform duration-700 ${isHovered ? 'scale-110' : 'scale-100'} ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
             onLoad={() => setImageLoaded(true)}
           />
           
@@ -35,7 +35,7 @@ const ProductCard = ({ product }) => {
             </span>
           )}
           
-          {/* Quick action buttons that appear on hover */}
+          {/* Quick action buttons */}
           <div className={`absolute top-3 right-3 flex flex-col space-y-2 transition-all duration-300 ${isHovered ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <button className="w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center hover:bg-gray-100 transition-colors">
               <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -66,13 +66,11 @@ const ProductCard = ({ product }) => {
             </span>
             <span className="font-bold text-red-600 relative">
               ₹{product.price}
-              {/* Animated price underline effect */}
               <span className={`absolute left-0 -bottom-1 h-0.5 bg-red-600 transition-all duration-300 ${isHovered ? 'w-full' : 'w-0'}`}></span>
             </span>
           </div>
         )}
         <div className="product-rating mt-2 flex items-center">
-          {/* Star rating visual */}
           <div className="relative inline-flex mr-2">
             {[...Array(5)].map((_, i) => (
               <svg key={i} className={`w-4 h-4 ${i < Math.floor(product.rating) ? 'text-yellow-400' : 'text-gray-300'}`} fill="currentColor" viewBox="0 0 20 20">
