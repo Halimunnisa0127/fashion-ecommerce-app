@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
           <img
             src={product?.image}
             alt={product?.name}
-            className={`product-image rounded-t-lg w-60 mx-auto mt-4 h-50 max-w-full transition-transform duration-700 ${isHovered ? 'scale-110' : 'scale-100'} ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+            className={`product-image rounded-t-lg w-40 mx-auto mt-4 h-40 max-w-full transition-transform duration-700 ${isHovered ? 'scale-110' : 'scale-100'} ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
             onLoad={() => setImageLoaded(true)}
           />
           
