@@ -6,6 +6,30 @@ A modern, responsive **E-commerce web application** built with **React (Vite)**,
 ## 🚀 Live Demo  
 🔗 [Fashion Ecommerce App](https://fashion-ecommerce-app-nine.vercel.app/)
 
+## 📸 Screenshots
+
+### 🏠 Home Page  
+![Home Page](../fashion-ecommerce-app/public/Images/Home.png)
+
+### 🛒 ProductDetails Page  
+![ProductDetails Page](../fashion-ecommerce-app/public/Images/ProductDetails.png)
+
+### 🛒 Wishlist Page  
+![Wishlist Page](../fashion-ecommerce-app/public/Images/Wishlist.png)
+
+
+### 🛒 About Page  
+![About Page](../fashion-ecommerce-app/public/Images/About.png)
+
+### 🛒 Cart Page  
+![Cart Page](../fashion-ecommerce-app/public/Images/Cart.png)
+
+### ✅ Payment Page  
+![Payment Page](../fashion-ecommerce-app/public/Images/Payment.png)
+
+
+
+
 ## Features
 
 **Product Browsing:**
@@ -89,3 +113,9 @@ This project is licensed under the MIT License.
 ## Contact
 
 For any questions, reach out to me at `shaikmunni1314@gmail.com`
+
+
+## **👩‍💻 Author**
+
+
+# **Halimunnisa Shaik**
